@@ -1,0 +1,182 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    height: ;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    /** box-shadow: h-offset v-offset blur spread color; **/
+   
+    text-align: center;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    padding: 5%;
+    height: 70%;
+    background-color: black;
+    color: white;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0 1% 0;
+    margin-bottom: 2%;
+    width: 100%;
+    box-shadow: 0 2px 1px rgb(36, 35, 35);
+}
+
+h2 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+h4 {
+    margin: 5px 0 0 0;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 7px 0;
+}
+
+.underline {
+    background-color: rgb(39, 0, 0);
+    width: 20%;
+    height: 3px;
+    margin-bottom: 1%;
+    margin-top: 5px;
+}
+
+.image-container {
+    width: 35%;
+}
+
+img {
+    height: 100%;
+    width: 70%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 4px 0px 2px 3px rgb(113,105,81);
+}
+
+.image-container::before {
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    font-weight: 900;
+    color: white;
+    margin-left: 1%;
+    margin-top: 2%;
+    background-color: rgb(113,105,81);
+    padding: 1%;
+    border-radius: 50%;
+  }
+
+.button-container {
+    margin-top: 3%;
+}
+
+button {
+    color: rgb(113,105,81);
+    background-color: transparent;
+    border: 0;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+button:hover {
+    cursor: pointer;
+    color: pink;
+}
+
+/***.prev-btn:hover {
+    color: red;
+}
+
+.next-btn:hover {
+    color: green;
+}
+***/
+
+.random-btn:hover {
+    color: pink;
+}
+
+
+
+p {
+    width: 100%;
+    font-size: medium;
+}
+
+#job {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(39, 0, 0);
+    margin: 0;
+    text-transform: capitalize;
+}
+
+#info {
+    height: 20%;
+    margin: 0;
+    font-weight: 700;
+    margin: 3% 0;
+}
+
+@media screen and (max-width: 500px) {
+    .image-container::before {
+        content: "\f10d";
+        font-family: "Font Awesome 5 Free";
+        position: absolute;
+        color: white;
+        background-color: rgb(113,105,81);
+        font-weight: 500;
+        margin-left: 0;
+    }
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 2px 0px 3px rgb(113,105,81);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .image-container::before {
+        content: "\f10d";
+        font-family: "Font Awesome 5 Free";
+        position: absolute;
+        color: white;
+        font-weight: 500;
+        margin-left: 0;
+        color: white;
+    }
+}

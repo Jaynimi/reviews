@@ -4,7 +4,7 @@ const reviews = [
         id: 1,
         name: "Jay",
         job: "Web Developer",
-        img: "imgs/img2.png",
+        img: "imgs/img1.png",
         text: "Jay is a budding web developer trying to improve her skills in JavaScript. She has no idea what to write here, so she's just going to stop now."
     },
     {
@@ -18,15 +18,22 @@ const reviews = [
         id: 3,
         name: "Dee Jay",
         job: "Fitness Critic",
-        img: "imgs/img4.png",
-        text: "Omoleegho is a fitness enthusiast. She's been working out since she was 15 years old. And if you ask her, she'd tell you it saved her life."
+        img: "imgs/img2.png",
+        text: "Omoleegho is a fitness enthusiast. She's been working out since she was 15 years old. And if you ask her, she'd tell you it saved her life and it still makes it better."
     },
     {
         id: 4,
         name: "Jay Tee",
         job: "Model",
-        img: "imgs/img5.png",
+        img: "imgs/img4.png",
         text: "Tee is a sweet girl that enjoys taking pictures of herself being weird. The interesting part is that she never posts them. You could say that's a secret talent of hers."
+    },
+    {
+        id: 5,
+        name: "Omoh",
+        job: "University Student",
+        img: "imgs/img5.png",
+        text: "Omoh is a student of the prestigious Obafemi Awolowo University, OAU. She majors in Animal sciences, and though she's not the sharpest tool in the box, she's doing pretty good as a student."
     },
 ];
 

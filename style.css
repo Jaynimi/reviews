@@ -125,7 +125,7 @@ button:hover {
 ***/
 
 .random-btn:hover {
-    color: pink;
+    color: rgb(39, 0, 0);
 }
 
 
@@ -158,8 +158,13 @@ p {
         color: white;
         background-color: rgb(113,105,81);
         font-weight: 500;
-        margin-left: 0;
+        margin-left: 2%;
     }
+
+    .image-container {
+        width: 50%;
+    }
+
     img {
         height: 100%;
         width: 100%;
@@ -167,6 +172,11 @@ p {
         border-radius: 50%;
         box-shadow: 2px 0px 3px rgb(113,105,81);
     }
+
+    .button-container {
+        margin-top: 20%;
+    }
+
     button {
         font-size: 30px;
     }
@@ -179,10 +189,14 @@ p {
         position: absolute;
         color: white;
         font-weight: 500;
-        margin-left: 0;
+        margin-left: 4%;
         color: white;
     }
     button {
         font-size: 15px;
+    }
+
+    .image-container {
+        width: 65%;
     }
 }

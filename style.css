@@ -167,9 +167,12 @@ p {
         border-radius: 50%;
         box-shadow: 2px 0px 3px rgb(113,105,81);
     }
+    button {
+        font-size: 30px;
+    }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
     .image-container::before {
         content: "\f10d";
         font-family: "Font Awesome 5 Free";
@@ -178,5 +181,8 @@ p {
         font-weight: 500;
         margin-left: 0;
         color: white;
+    }
+    button {
+        font-size: 15px;
     }
 }

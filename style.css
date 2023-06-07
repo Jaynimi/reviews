@@ -200,3 +200,9 @@ p {
         width: 65%;
     }
 }
+
+@media screen and (min-width: 350px) {
+    .review {
+        padding: 2% 5%;
+    }
+}
